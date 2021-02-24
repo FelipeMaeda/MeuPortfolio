@@ -1,13 +1,9 @@
-import NavBar from '../components/Navbar/index.js'
-import LeftBar from '../components/LeftBar/index.js'
+import NavBarMenu from '../components/Navbar/index.js'
 
 export default function About() {
   return (
     <>
-      <NavBar />
-      <LeftBar>
-        Teste1
-      </LeftBar>
+      <NavBarMenu />
     </>
   )
 }

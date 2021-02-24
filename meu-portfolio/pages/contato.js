@@ -1,5 +1,4 @@
-import NavBar from '../components/Navbar/index.js'
-import LeftBar from '../components/LeftBar/index.js'
+import NavBarMenu from '../components/Navbar/index.js'
 
 const https = require('https');
 
@@ -32,10 +31,7 @@ profileRequest.end();
 export default function Contact() {
   return (
     <>
-      <NavBar />
-      <LeftBar>
-        Teste
-      </LeftBar>
+      <NavBarMenu />
     </>
   )
 }
