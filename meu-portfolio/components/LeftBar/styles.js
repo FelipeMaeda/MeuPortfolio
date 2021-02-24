@@ -7,3 +7,8 @@ export const LeftBarStyles = styled.div`
     float: left;
     position: absolute;
 `;
+
+export const Option = styled.a`
+    color: #FFF;
+    
+`;

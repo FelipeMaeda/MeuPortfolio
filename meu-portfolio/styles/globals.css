@@ -7,16 +7,26 @@ html {
   min-height: 100%;
   background: #FFF;
 }
-*, button, input {
-  border: 0;
-  background: none;
-  font-family: 'Roboto', -apple-system, system-ui, sans-serif;
+.nav-link{
+  margin-right: 25px;
+  font-family: monospace;
+  font-size: 20px;
+  color:#FFF !important;
 }
-ul {
-  list-style: none;
-  padding-left: 0;
+.navbar-toggler {
+  background-color: rgb(255, 255, 255) !important;
+  opacity: 0.6;
 }
-a {
-  text-decoration: none;
-  color: #FFF;
-}
+
+
+
+/* font-family: Gill Sans Extrabold, sans-serif
+font-family: "Goudy Bookletter 1911", sans-serif
+
+font-family: sans-serif
+font-family: serif
+font-family: fantasy
+font-family: cursive
+font-family: monospace
+
+font-family: inherit */

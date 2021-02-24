@@ -1,26 +1,22 @@
 import React from 'react';
-import { Bar, Link } from '../Navbar/styles.js'
+import { Navbar, Nav } from 'react-bootstrap';
 
-export default function NavBar() {
+export default function NavBarMenu() {
     return (
-        <Bar>
-            <ul>
-                <li>
-                    <a href="/felipemaeda">Felipe Maeda</a>
-                </li>
-                <li>
-                    <a href="/projetos">Projetos</a>
-                </li>
-                <li>
-                    <a href="/github">Github</a>
-                </li>
-                <li>
-                    <a href="/sobre">Sobre</a>
-                </li>
-                <li>
-                    <a href="/contato">Contato</a>
-                </li>
-            </ul>
-        </Bar>
+        <div>
+            <Navbar bg="info" expand="lg">
+                <div></div>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav" color="light">
+                    <Nav className="mr-auto">
+                        <Nav.Link href="#FelipeMaeda">Felipe Maeda</Nav.Link>
+                        <Nav.Link href="#Projetos">Projetos</Nav.Link>
+                        <Nav.Link href="#GitHub">GitHub</Nav.Link>
+                        <Nav.Link href="#Sobre">Sobre</Nav.Link>
+                        <Nav.Link href="#Contato">Contato</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar>
+        </div>
     )
 }

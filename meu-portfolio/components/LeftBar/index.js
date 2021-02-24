@@ -4,7 +4,7 @@ export default function LeftBar() {
     return (
         <> 
             <LeftBarStyles>
-
+                
             </LeftBarStyles>
         </>
     )
