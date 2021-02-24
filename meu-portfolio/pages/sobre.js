@@ -5,8 +5,9 @@ export default function About() {
   return (
     <>
       <NavBar />
-      <LeftBar />
-      Home
+      <LeftBar>
+        Teste1
+      </LeftBar>
     </>
   )
 }

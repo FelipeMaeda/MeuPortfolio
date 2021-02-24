@@ -1,12 +1,13 @@
 import NavBar from '../components/Navbar/index.js'
 import LeftBar from '../components/LeftBar/index.js'
 
-export default function Projetos() {
+export default function Projects() {
   return (
     <>
       <NavBar />
-      <LeftBar />
-      Home
+      <LeftBar>
+        Teste2
+      </LeftBar>
     </>
   )
 }

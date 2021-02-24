@@ -5,7 +5,9 @@ export default function FelipeMaeda() {
     return (
         <>
             <NavBar />
-            <LeftBar />
+            <LeftBar>
+                Teste5
+            </LeftBar>
         </>
     )
 }
