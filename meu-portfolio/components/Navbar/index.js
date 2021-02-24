@@ -5,7 +5,7 @@ export default function NavBarMenu() {
     return (
         <div>
             <Navbar bg="info" expand="lg">
-                <div></div>
+                <a href="#MeuPortfolio"><div className="briefcase-icon" /></a>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" color="light">
                     <Nav className="mr-auto">
@@ -17,6 +17,8 @@ export default function NavBarMenu() {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
+
+            
         </div>
     )
 }

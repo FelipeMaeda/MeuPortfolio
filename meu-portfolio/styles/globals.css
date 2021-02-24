@@ -17,7 +17,15 @@ html {
   background-color: rgb(255, 255, 255) !important;
   opacity: 0.6;
 }
-
+.briefcase-icon {
+  background-image: url("../public/icons/maleta-icon.png");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 10;
+  background-size: 90px 50px;
+  height: 50px;
+  width: 90px;
+}
 
 
 /* font-family: Gill Sans Extrabold, sans-serif
