@@ -6,6 +6,9 @@ export default function Home() {
     <>
         <NavBarMenu />
         <Card />
+        <Card />
+        <Card />
+        <Card />
     </>
   )
 }
