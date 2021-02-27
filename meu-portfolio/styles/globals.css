@@ -5,13 +5,19 @@
 }
 html {
   min-height: 100%;
-  background: #FFF;
+}
+body {
+  
+  min-height: 100%;
+  min-width: 100%;
 }
 .nav-link{
-  margin-right: 25px;
+  margin-top: 50px;
+  float: right;
+  position: relative;
   font-family: monospace;
   font-size: 20px;
-  color:#FFF !important;
+  color:rgb(0, 0, 0) !important;
 }
 .navbar-toggler {
   background-color: rgb(255, 255, 255) !important;
